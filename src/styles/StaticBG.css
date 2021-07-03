@@ -1,0 +1,59 @@
+.tint{
+    padding: 2rem 7rem;
+}
+.tint h2{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway',
+    sans-serif;
+    padding: 2.5rem 0;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 600;
+    backdrop-filter: blur(2px);
+    /* padding: ; */
+}
+
+.tint p{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway',
+    sans-serif;
+    padding: 2rem 0;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 400;
+    backdrop-filter: blur(3px);
+}
+
+@media screen and (max-width : 1200px) {
+    .tint h2 {
+        font-size: 2rem;
+    }
+    .tint p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .tint {
+        padding: 2rem 1rem;
+    }
+    .tint h2 {
+        font-size: 2rem;
+    }
+
+    .tint p {
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+
+}
+@media screen and (max-width : 400px) {
+    .tint {
+        padding: 1rem 1rem;
+    }
+    .tint p {
+        padding: 1rem 0;
+    }
+}

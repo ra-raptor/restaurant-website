@@ -1,0 +1,131 @@
+.dishes,
+.Categories {
+    background-color: #FCFDFF;
+    padding: 2rem 7rem;
+}
+
+.dishes>h2,
+.Categories>h2 {
+    font-family: 'Kaushan Script',
+    cursive;
+    color: #382527;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+}
+
+.hr-title{
+    width: 40%;
+    margin: .5rem auto;
+    height: 1px;
+}
+
+.gallery-warpper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.card{
+    min-height: 260px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px #3825270e;
+}
+
+.card .name{
+    font-family: 'Raleway',
+    sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    padding-bottom: .2rem;
+    color: #382527;
+    font-weight: 600;
+    /* color:  #f4941c; */
+    
+}
+
+.card .cat{
+    font-family: 'Raleway',
+    sans-serif;
+    font-size: 1rem;
+    padding: 0rem 2rem;
+    color: #f4941c;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.card hr{
+    width: 90%;
+    opacity: 80%;
+    margin: 0 auto;
+}
+.card .cta{
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+
+}
+
+.card .price{
+    font-family: 'montserrat',
+    sans-serif;
+    font-size: 2rem;
+    color: #f4941c;
+    font-weight: 400;
+}
+
+.card .buy{
+    height: 2rem;
+    border: 2px solid #f4941c;
+    padding: 1.4rem 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f4941c;
+    /* background-color: #db8113; */
+    color: #fff;
+    font-family: 'Raleway',
+    sans-serif;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width : 1200px) {
+    .dishes,
+    .Categories {
+        /* background-color: #FCFDFF; */
+        padding: 2rem 5rem;
+    }
+    .card .price {
+        font-size: 1.4rem;
+    }
+    .card .buy {
+         font-size: 1rem;
+         padding: 1.4rem 0.2rem;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .gallery-warpper {
+        grid-template-columns: 1fr 1fr;}
+
+}
+@media screen and (max-width : 600px) {
+    .gallery-warpper {
+        grid-template-columns:  1fr;}
+
+        .dishes,
+        .Categories {
+            padding: 0rem 0rem;
+        }
+
+}

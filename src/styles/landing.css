@@ -1,0 +1,117 @@
+.landing{
+    background-image: url("../images/coffee-geek-4A1fKj5RrJA-unsplash-copy.jpg");
+    background-size: cover;
+    padding-top: 30vh;
+    padding-left: 7rem;
+    padding-right: 50vw;
+    height: 100vh;
+    width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.landing h1{
+    font-family: 'Montserrat',
+    sans-serif;
+    font-size: 2.4rem;
+    color: #382527;
+}
+.landing p{
+    padding-right: 3rem;
+    margin-top: 3rem;
+    font-family: 'Raleway',
+    sans-serif;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.landing .btns{
+    margin-top: 4rem;
+    display: flex;
+}
+
+.landing .btns .btn{
+    height: 2rem;
+    border: 2px solid #f4941c;
+    padding: 1.4rem 4rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #db8113;
+    font-family: 'Raleway',
+    sans-serif;
+    font-size: 1.2rem;
+}
+
+.landing .btns .btn.primary{
+    background-color: #f4941c;
+    color: #fff;
+    margin-left: 2rem;
+}
+
+.landing .btns .btn.primary:hover{
+    background-color: #f47d1c;
+    border: 2px solid #f47d1c;
+}
+
+.landing .btns .btn.secondary:hover {
+    border: 2px solid #f47d1c;
+    background-color: #f47d1c0c;
+}
+.full-height{
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+@media screen and (max-width : 1200px ) {
+    .landing{
+        padding-left: 5rem;
+         padding-right: 30vw;
+    }
+    
+}
+@media screen and (max-width : 1000px ) {
+    .landing{
+        padding-right: 30vw;
+        
+    }
+    
+}
+
+@media screen and (max-width : 600px) {
+.landing {
+    background-image: none;
+    padding-top: 20vh;
+    padding-left: 2rem;
+    padding-right: 10vw;
+}
+
+    .landing h1 {
+        font-size: 2rem;
+    }
+
+    .landing p {
+        padding-right: 3rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .landing .btns {
+        margin-top: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .landing .btns .btn {
+        height: 2rem;
+        border: 2px solid #f4941c;
+        padding: 1.5rem 4rem;
+        font-size: 1rem;
+    }
+    .landing .btns .btn.primary {
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+
+}
